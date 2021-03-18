@@ -1,4 +1,4 @@
-# Lithophne lamp
+# Lithophane lamp
 Program to control a 3d printed lithophane rgb lamp.  
 3d model source: https://www.thingiverse.com/thing:1370792  
 
