@@ -1,0 +1,752 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L lamp_wim_lien:SK9822 D2
+U 1 1 5DCD72D7
+P 5900 3450
+F 0 "D2" V 5750 3100 50  0000 L CNN
+F 1 "SK9822" V 5750 2950 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 7450 3050 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 5900 3450 50  0001 C CNN
+	1    5900 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D1
+U 1 1 5DD602A3
+P 5900 2650
+F 0 "D1" V 5750 2300 50  0000 L CNN
+F 1 "SK9822" V 5650 2150 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 7450 2250 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 5900 2650 50  0001 C CNN
+	1    5900 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 4250 6300 4250
+Wire Wire Line
+	6200 3450 6300 3450
+Wire Wire Line
+	6200 2650 6300 2650
+Wire Wire Line
+	7000 5050 7100 5050
+Wire Wire Line
+	7000 4250 7100 4250
+Wire Wire Line
+	7000 3450 7100 3450
+Wire Wire Line
+	7000 2650 7100 2650
+Wire Wire Line
+	7800 5050 7900 5050
+Wire Wire Line
+	7800 4250 7900 4250
+Wire Wire Line
+	7800 3450 7900 3450
+Wire Wire Line
+	7800 2650 7900 2650
+Wire Wire Line
+	8600 5050 8700 5050
+Wire Wire Line
+	8600 4250 8700 4250
+Wire Wire Line
+	8600 3450 8700 3450
+Wire Wire Line
+	8600 2650 8700 2650
+Wire Wire Line
+	6300 2000 6300 2650
+Wire Wire Line
+	7100 2650 7100 3450
+Wire Wire Line
+	7900 2000 7900 2650
+Wire Wire Line
+	8700 2650 8700 3450
+Connection ~ 6300 4250
+Wire Wire Line
+	6300 4250 6400 4250
+Wire Wire Line
+	6300 4250 6300 5050
+Connection ~ 6300 3450
+Wire Wire Line
+	6300 3450 6400 3450
+Wire Wire Line
+	6300 3450 6300 4250
+Connection ~ 6300 2650
+Wire Wire Line
+	6300 2650 6400 2650
+Wire Wire Line
+	6300 2650 6300 3450
+Connection ~ 7100 2650
+Wire Wire Line
+	7100 2650 7200 2650
+Connection ~ 7100 3450
+Wire Wire Line
+	7100 3450 7200 3450
+Wire Wire Line
+	7100 3450 7100 4250
+Connection ~ 7900 3450
+Wire Wire Line
+	7900 3450 8000 3450
+Wire Wire Line
+	7900 3450 7900 4250
+Connection ~ 7900 2650
+Wire Wire Line
+	7900 2650 8000 2650
+Wire Wire Line
+	7900 2650 7900 3450
+Connection ~ 8700 2650
+Wire Wire Line
+	8700 2650 8800 2650
+Connection ~ 8700 3450
+Wire Wire Line
+	8700 3450 8800 3450
+Wire Wire Line
+	8700 3450 8700 4250
+Connection ~ 8700 4250
+Wire Wire Line
+	8700 4250 8800 4250
+Wire Wire Line
+	8700 4250 8700 5050
+Connection ~ 7900 4250
+Wire Wire Line
+	7900 4250 8000 4250
+Wire Wire Line
+	7900 4250 7900 5050
+Connection ~ 7100 4250
+Wire Wire Line
+	7100 4250 7200 4250
+Wire Wire Line
+	7100 4250 7100 5050
+Connection ~ 7100 5050
+Wire Wire Line
+	7100 5050 7200 5050
+Wire Wire Line
+	7100 5050 7100 5700
+Connection ~ 7900 5050
+Wire Wire Line
+	7900 5050 8000 5050
+Connection ~ 8700 5050
+Wire Wire Line
+	8700 5050 8800 5050
+Wire Wire Line
+	8700 5050 8700 5700
+$Comp
+L power:VCC #PWR02
+U 1 1 5DDD0EED
+P 6300 2000
+F 0 "#PWR02" H 6300 1850 50  0001 C CNN
+F 1 "VCC" H 6317 2173 50  0000 C CNN
+F 2 "" H 6300 2000 50  0001 C CNN
+F 3 "" H 6300 2000 50  0001 C CNN
+	1    6300 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR04
+U 1 1 5DDD1D99
+P 7900 2000
+F 0 "#PWR04" H 7900 1850 50  0001 C CNN
+F 1 "VCC" H 7917 2173 50  0000 C CNN
+F 2 "" H 7900 2000 50  0001 C CNN
+F 3 "" H 7900 2000 50  0001 C CNN
+	1    7900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5DDD2E3A
+P 7100 5700
+F 0 "#PWR03" H 7100 5450 50  0001 C CNN
+F 1 "GND" H 7105 5527 50  0000 C CNN
+F 2 "" H 7100 5700 50  0001 C CNN
+F 3 "" H 7100 5700 50  0001 C CNN
+	1    7100 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5DDD41A6
+P 8700 5700
+F 0 "#PWR05" H 8700 5450 50  0001 C CNN
+F 1 "GND" H 8705 5527 50  0000 C CNN
+F 2 "" H 8700 5700 50  0001 C CNN
+F 3 "" H 8700 5700 50  0001 C CNN
+	1    8700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D3
+U 1 1 5DDDCD08
+P 5900 4250
+F 0 "D3" V 5750 3900 50  0000 L CNN
+F 1 "SK9822" V 5750 3750 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 7450 3850 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 5900 4250 50  0001 C CNN
+	1    5900 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D4
+U 1 1 5DDDE26E
+P 5900 5050
+F 0 "D4" V 5750 4700 50  0000 L CNN
+F 1 "SK9822" V 5750 4550 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 7450 4650 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 5900 5050 50  0001 C CNN
+	1    5900 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D5
+U 1 1 5DDE17B6
+P 6700 2650
+F 0 "D5" V 6850 2900 50  0000 L CNN
+F 1 "SK9822" V 6550 2150 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 8250 2250 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 6700 2650 50  0001 C CNN
+	1    6700 2650
+	0    -1   1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D11
+U 1 1 5DDE4D6A
+P 7500 4250
+F 0 "D11" V 7350 3900 50  0000 L CNN
+F 1 "SK9822" V 7350 3750 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 9050 3850 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 7500 4250 50  0001 C CNN
+	1    7500 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D10
+U 1 1 5DDE4D70
+P 7500 3450
+F 0 "D10" V 7350 3100 50  0000 L CNN
+F 1 "SK9822" V 7350 2950 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 9050 3050 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 7500 3450 50  0001 C CNN
+	1    7500 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D9
+U 1 1 5DDE4D76
+P 7500 2650
+F 0 "D9" V 7350 2300 50  0000 L CNN
+F 1 "SK9822" V 7350 2150 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 9050 2250 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 7500 2650 50  0001 C CNN
+	1    7500 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D12
+U 1 1 5DDE4D7C
+P 7500 5050
+F 0 "D12" V 7350 4700 50  0000 L CNN
+F 1 "SK9822" V 7350 4550 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 9050 4650 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 7500 5050 50  0001 C CNN
+	1    7500 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D19
+U 1 1 5DDEB470
+P 9100 4250
+F 0 "D19" V 8950 3900 50  0000 L CNN
+F 1 "SK9822" V 8950 3750 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 10650 3850 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 9100 4250 50  0001 C CNN
+	1    9100 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D18
+U 1 1 5DDEB476
+P 9100 3450
+F 0 "D18" V 8950 3100 50  0000 L CNN
+F 1 "SK9822" V 8950 2950 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 10650 3050 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 9100 3450 50  0001 C CNN
+	1    9100 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D17
+U 1 1 5DDEB47C
+P 9100 2650
+F 0 "D17" V 8950 2300 50  0000 L CNN
+F 1 "SK9822" V 8950 2150 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 10650 2250 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 9100 2650 50  0001 C CNN
+	1    9100 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D20
+U 1 1 5DDEB482
+P 9100 5050
+F 0 "D20" V 8950 4700 50  0000 L CNN
+F 1 "SK9822" V 8950 4550 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 10650 4650 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 9100 5050 50  0001 C CNN
+	1    9100 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D6
+U 1 1 5DE07325
+P 6700 3450
+F 0 "D6" V 6850 3700 50  0000 L CNN
+F 1 "SK9822" V 6550 2950 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 8250 3050 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 6700 3450 50  0001 C CNN
+	1    6700 3450
+	0    -1   1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D7
+U 1 1 5DE09303
+P 6700 4250
+F 0 "D7" V 6850 4500 50  0000 L CNN
+F 1 "SK9822" V 6550 3750 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 8250 3850 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 6700 4250 50  0001 C CNN
+	1    6700 4250
+	0    -1   1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D8
+U 1 1 5DE09309
+P 6700 5050
+F 0 "D8" V 6850 5300 50  0000 L CNN
+F 1 "SK9822" V 6550 4550 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 8250 4650 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 6700 5050 50  0001 C CNN
+	1    6700 5050
+	0    -1   1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D13
+U 1 1 5DE0E247
+P 8300 2650
+F 0 "D13" V 8450 2900 50  0000 L CNN
+F 1 "SK9822" V 8150 2150 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 9850 2250 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 8300 2650 50  0001 C CNN
+	1    8300 2650
+	0    -1   1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D14
+U 1 1 5DE0E24D
+P 8300 3450
+F 0 "D14" V 8450 3700 50  0000 L CNN
+F 1 "SK9822" V 8150 2950 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 9850 3050 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 8300 3450 50  0001 C CNN
+	1    8300 3450
+	0    -1   1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D15
+U 1 1 5DE0E253
+P 8300 4250
+F 0 "D15" V 8450 4500 50  0000 L CNN
+F 1 "SK9822" V 8150 3750 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 9850 3850 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 8300 4250 50  0001 C CNN
+	1    8300 4250
+	0    -1   1    0   
+$EndComp
+$Comp
+L lamp_wim_lien:SK9822 D16
+U 1 1 5DE0E259
+P 8300 5050
+F 0 "D16" V 8450 5300 50  0000 L CNN
+F 1 "SK9822" V 8150 4550 50  0001 L CNN
+F 2 "LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm" H 9850 4650 50  0001 C CNN
+F 3 "https://www.pololu.com/file/0J1234/sk9822_datasheet.pdf" H 8300 5050 50  0001 C CNN
+	1    8300 5050
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	9500 2000 9500 2650
+$Comp
+L power:VCC #PWR06
+U 1 1 5DE0F6FC
+P 9500 2000
+F 0 "#PWR06" H 9500 1850 50  0001 C CNN
+F 1 "VCC" H 9517 2173 50  0000 C CNN
+F 2 "" H 9500 2000 50  0001 C CNN
+F 3 "" H 9500 2000 50  0001 C CNN
+	1    9500 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 2650 9500 3450
+Wire Wire Line
+	9500 3450 9500 4250
+Wire Wire Line
+	9500 4250 9500 5050
+Wire Wire Line
+	9400 2650 9500 2650
+Wire Wire Line
+	9400 3450 9500 3450
+Wire Wire Line
+	9400 4250 9500 4250
+Wire Wire Line
+	9400 5050 9500 5050
+Connection ~ 9500 2650
+Connection ~ 9500 3450
+Connection ~ 9500 4250
+Wire Wire Line
+	5500 5700 5500 5050
+Wire Wire Line
+	5500 5050 5500 4250
+Wire Wire Line
+	5500 4250 5500 3450
+Wire Wire Line
+	5500 3450 5500 2650
+Wire Wire Line
+	5600 5050 5500 5050
+Wire Wire Line
+	5600 4250 5500 4250
+Wire Wire Line
+	5600 3450 5500 3450
+Wire Wire Line
+	5600 2650 5500 2650
+Connection ~ 5500 5050
+Connection ~ 5500 4250
+Connection ~ 5500 3450
+$Comp
+L power:GND #PWR01
+U 1 1 5DE1FA26
+P 5500 5700
+F 0 "#PWR01" H 5500 5450 50  0001 C CNN
+F 1 "GND" H 5505 5527 50  0000 C CNN
+F 2 "" H 5500 5700 50  0001 C CNN
+F 3 "" H 5500 5700 50  0001 C CNN
+	1    5500 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2950 5900 3150
+Wire Wire Line
+	6000 2950 6000 3150
+Wire Wire Line
+	5900 3750 5900 3950
+Wire Wire Line
+	6000 3750 6000 3950
+Wire Wire Line
+	5900 4550 5900 4750
+Wire Wire Line
+	6000 4550 6000 4750
+Wire Wire Line
+	6600 2950 6600 3150
+Wire Wire Line
+	6700 2950 6700 3150
+Wire Wire Line
+	7500 2950 7500 3150
+Wire Wire Line
+	7600 2950 7600 3150
+Wire Wire Line
+	8200 2950 8200 3150
+Wire Wire Line
+	8300 2950 8300 3150
+Wire Wire Line
+	9100 2950 9100 3150
+Wire Wire Line
+	9200 2950 9200 3150
+Wire Wire Line
+	6600 3750 6600 3950
+Wire Wire Line
+	6700 3750 6700 3950
+Wire Wire Line
+	7500 3750 7500 3950
+Wire Wire Line
+	7600 3750 7600 3950
+Wire Wire Line
+	8200 3750 8200 3950
+Wire Wire Line
+	8300 3750 8300 3950
+Wire Wire Line
+	9100 3750 9100 3950
+Wire Wire Line
+	9200 3750 9200 3950
+Wire Wire Line
+	6600 4550 6600 4750
+Wire Wire Line
+	6700 4550 6700 4750
+Wire Wire Line
+	7500 4550 7500 4750
+Wire Wire Line
+	7600 4550 7600 4750
+Wire Wire Line
+	8200 4550 8200 4750
+Wire Wire Line
+	8300 4550 8300 4750
+Wire Wire Line
+	9100 4550 9100 4750
+Wire Wire Line
+	9200 4550 9200 4750
+Wire Wire Line
+	6000 2350 6000 1900
+Text Label 6000 1900 3    50   ~ 0
+MOSI
+Wire Wire Line
+	5900 2350 5900 1900
+Text Label 5900 1900 3    50   ~ 0
+CLK
+NoConn ~ 9100 5350
+NoConn ~ 9200 5350
+Text Label 5900 5800 1    50   ~ 0
+CLK_D5
+Text Label 6000 5800 1    50   ~ 0
+MOSI_D5
+Text Label 7500 5800 1    50   ~ 0
+CLK_D13
+Text Label 7600 5800 1    50   ~ 0
+MOSI_D13
+Wire Wire Line
+	6300 5050 6400 5050
+Connection ~ 6300 5050
+Wire Wire Line
+	6200 5050 6300 5050
+Wire Wire Line
+	7600 5350 7600 5800
+Wire Wire Line
+	7500 5350 7500 5800
+Wire Wire Line
+	6000 5350 6000 5800
+Wire Wire Line
+	5900 5350 5900 5800
+Text Label 7500 1900 3    50   ~ 0
+CLK_D9
+Text Label 7600 1900 3    50   ~ 0
+MOSI_D9
+Text Label 9100 1900 3    50   ~ 0
+CLK_D17
+Text Label 9200 1900 3    50   ~ 0
+MOSI_D17
+Wire Wire Line
+	9200 2350 9200 1900
+Wire Wire Line
+	9100 2350 9100 1900
+Wire Wire Line
+	7600 2350 7600 1900
+Wire Wire Line
+	7500 2350 7500 1900
+$Comp
+L power:VCC #PWR08
+U 1 1 5DE9A729
+P 2450 3650
+F 0 "#PWR08" H 2450 3500 50  0001 C CNN
+F 1 "VCC" V 2450 3850 50  0000 C CNN
+F 2 "" H 2450 3650 50  0001 C CNN
+F 3 "" H 2450 3650 50  0001 C CNN
+	1    2450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5DE9FC13
+P 2650 3650
+F 0 "#PWR07" H 2650 3400 50  0001 C CNN
+F 1 "GND" V 2650 3450 50  0000 C CNN
+F 2 "" H 2650 3650 50  0001 C CNN
+F 3 "" H 2650 3650 50  0001 C CNN
+	1    2650 3650
+	-1   0    0    1   
+$EndComp
+Text Label 3350 4800 2    50   ~ 0
+CLK
+Wire Wire Line
+	2900 4800 3350 4800
+Text Label 3350 5000 2    50   ~ 0
+MOSI
+Wire Wire Line
+	2900 5000 3350 5000
+$Comp
+L power:GND #PWR0101
+U 1 1 5DFB095D
+P 1200 7500
+F 0 "#PWR0101" H 1200 7250 50  0001 C CNN
+F 1 "GND" H 1205 7327 50  0000 C CNN
+F 2 "" H 1200 7500 50  0001 C CNN
+F 3 "" H 1200 7500 50  0001 C CNN
+	1    1200 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5DFB65A4
+P 750 7500
+F 0 "#PWR0102" H 750 7350 50  0001 C CNN
+F 1 "VCC" H 767 7673 50  0000 C CNN
+F 2 "" H 750 7500 50  0001 C CNN
+F 3 "" H 750 7500 50  0001 C CNN
+	1    750  7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5DFBB608
+P 750 7500
+F 0 "#FLG0101" H 750 7575 50  0001 C CNN
+F 1 "PWR_FLAG" H 750 7673 50  0000 C CNN
+F 2 "" H 750 7500 50  0001 C CNN
+F 3 "~" H 750 7500 50  0001 C CNN
+	1    750  7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5DFBC154
+P 1200 7500
+F 0 "#FLG0102" H 1200 7575 50  0001 C CNN
+F 1 "PWR_FLAG" H 1200 7673 50  0000 C CNN
+F 2 "" H 1200 7500 50  0001 C CNN
+F 3 "~" H 1200 7500 50  0001 C CNN
+	1    1200 7500
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2900 4900
+$Comp
+L Connector:Conn_01x05_Male J1
+U 1 1 5DD1541F
+P 2100 2150
+F 0 "J1" V 2162 1862 50  0000 R CNN
+F 1 "Conn_01x05_Male_usb_power" V 2000 2700 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2100 2150 50  0001 C CNN
+F 3 "~" H 2100 2150 50  0001 C CNN
+	1    2100 2150
+	0    -1   1    0   
+$EndComp
+NoConn ~ 2200 2350
+NoConn ~ 2100 2350
+NoConn ~ 2000 2350
+Wire Wire Line
+	2550 3650 2650 3650
+NoConn ~ 2150 3650
+NoConn ~ 2250 3650
+NoConn ~ 2350 3650
+Text Notes 4350 1400 0    168  ~ 0
+TODO: ADD BUTTON pANEL
+$Comp
+L Connector:Conn_01x04_Female J2
+U 1 1 5DDFBDDE
+P 3350 4600
+F 0 "J2" V 3288 4312 50  0000 R CNN
+F 1 "Conn_01x04_Female_button_panel" V 3197 4312 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 3350 4600 50  0001 C CNN
+F 3 "~" H 3350 4600 50  0001 C CNN
+	1    3350 4600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3150 4400 3050 4400
+Connection ~ 2650 3650
+$Comp
+L lamp_wim_lien:arduino_lamp_wim_lien B1
+U 1 1 5DD8730A
+P 2400 4550
+F 0 "B1" V 2300 4600 50  0000 R CNN
+F 1 "arduino_lamp_wim_lien" V 2400 4900 50  0000 R CNN
+F 2 "ARDUINO_PRO_MINI_SANDWICH:ARDUINO_LAMP_WIM_LIEN" H 2500 4400 50  0001 C CNN
+F 3 "" H 2500 4400 50  0001 C CNN
+	1    2400 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4700 3150 4700
+Wire Wire Line
+	3150 4600 2900 4600
+Wire Wire Line
+	2900 4500 3150 4500
+$Comp
+L power:GND #PWR0103
+U 1 1 5DEE6AA0
+P 3050 4400
+F 0 "#PWR0103" H 3050 4150 50  0001 C CNN
+F 1 "GND" H 3055 4227 50  0000 C CNN
+F 2 "" H 3050 4400 50  0001 C CNN
+F 3 "" H 3050 4400 50  0001 C CNN
+	1    3050 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 5DD226B7
+P 2300 2350
+F 0 "#PWR09" H 2300 2100 50  0001 C CNN
+F 1 "GND" V 2300 2150 50  0000 C CNN
+F 2 "" H 2300 2350 50  0001 C CNN
+F 3 "" H 2300 2350 50  0001 C CNN
+	1    2300 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR010
+U 1 1 5DD226B1
+P 1900 2350
+F 0 "#PWR010" H 1900 2200 50  0001 C CNN
+F 1 "VCC" V 1900 2550 50  0000 C CNN
+F 2 "" H 1900 2350 50  0001 C CNN
+F 3 "" H 1900 2350 50  0001 C CNN
+	1    1900 2350
+	1    0    0    1   
+$EndComp
+Text Label 8300 5800 1    50   ~ 0
+CLK_D17
+Text Label 8200 5800 1    50   ~ 0
+MOSI_D17
+Wire Wire Line
+	8200 5350 8200 5800
+Wire Wire Line
+	8300 5350 8300 5800
+Wire Wire Line
+	8300 2350 8300 1900
+Wire Wire Line
+	8200 2350 8200 1900
+Text Label 8200 1900 3    50   ~ 0
+MOSI_D13
+Text Label 8300 1900 3    50   ~ 0
+CLK_D13
+Text Label 6700 5800 1    50   ~ 0
+CLK_D9
+Text Label 6600 5800 1    50   ~ 0
+MOSI_D9
+Wire Wire Line
+	6600 5350 6600 5800
+Wire Wire Line
+	6700 5350 6700 5800
+Text Label 6700 1950 3    50   ~ 0
+CLK_D5
+Text Label 6600 1950 3    50   ~ 0
+MOSI_D5
+Wire Wire Line
+	6700 2400 6700 2350
+Wire Wire Line
+	6600 2400 6600 2350
+Connection ~ 6600 2350
+Wire Wire Line
+	6700 2350 6700 1950
+Connection ~ 6700 2350
+Wire Wire Line
+	6600 2350 6600 1950
+$EndSCHEMATC

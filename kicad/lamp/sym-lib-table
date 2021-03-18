@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name lamp_wim_lien)(type Legacy)(uri ${KIPRJMOD}/lamp_wim_lien.lib)(options "")(descr ""))
+  (lib (name pcb_no_battery_and_clock-rescue)(type Legacy)(uri /home/edoardo/Nextcloud/chessboard/pcb/git_chessboard_pcb3/pcb_no_battery_and_clock-rescue.lib)(options "")(descr ""))
+  (lib (name lamp-rescue)(type Legacy)(uri ${KIPRJMOD}/lamp-rescue.lib)(options "")(descr ""))
+)

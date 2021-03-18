@@ -1,0 +1,7 @@
+{
+    "board": "arduino:avr:pro",
+    "port": "/dev/ttyUSB0",
+    "sketch": "lamp.ino",
+    "programmer": "Arduino as ISP",
+    "configuration": "cpu=16MHzatmega328"
+}

@@ -1,0 +1,17 @@
+Email Address: eregni@pm.me
+Picture: voorkant-grijs.png
+Frame Options: No Border
+Lithophane Resolution: 0.2
+Base Length: 150
+Base Width: 7.5
+Base Height: 7.5
+Overhang Angle: 60
+Maximum Thickness: 3.0
+Minimum Thickness: 0.6
+Height: 150
+Support Thickness: 2
+Support Angle: 75
+X Shift: 0.5
+Y Shift: 0.5
+Rectangle Scale: 1.0
+Crop?: Yes

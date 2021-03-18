@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/edoardo/.arduino15/packages/arduino/tools/**",
+                "/home/edoardo/.arduino15/packages/arduino/hardware/avr/1.6.21/**",
+                "/home/edoardo/.arduino15/packages/arduino/hardware/avr/1.8.1/**",
+                "/home/edoardo/.arduino15/packages/arduino/hardware/avr/1.8.2/**",
+                "/home/edoardo/Arduino/libraries/NeoPixelBus_by_Makuna/**",
+                "gamma_correction.h"
+            ],
+            "forcedInclude": [
+                "/home/edoardo/.arduino15/packages/arduino/hardware/avr/1.8.2/cores/arduino/Arduino.h",
+                "/home/edoardo/.arduino15/packages/arduino/hardware/avr/1.6.21/cores/arduino/Arduino.h"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
